@@ -1,0 +1,19 @@
+package br.com.Aula13.E6;
+import java.math.*;
+import java.util.Scanner;
+
+public class exercicio6 {
+
+	private static final float PI = 0;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
+		float raio, area;
+		System.out.println("Digite o raio do circulo");
+		raio = scan.nextFloat();
+		area = raio*PI;
+		System.out.println("A area do circulo e: " + area + " cm ou metros");
+	}
+
+}

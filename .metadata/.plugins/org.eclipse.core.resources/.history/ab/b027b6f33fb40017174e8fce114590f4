@@ -1,0 +1,22 @@
+package br.com.Aula13.E10;
+
+import java.util.Scanner;
+
+public class exercicio10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
+		double grauFh, grauCel;
+		System.out.println("Qual a temperatura em Celcius");
+		grauFh = scan.nextFloat();
+		
+		grauCel = (5*(grauFh-32))/9;
+		
+		grauFh = (grauCel - 32) / 1.8;
+				
+		System.out.println("Atemperatura em FirenHit e: " + grauFh);
+		scan.close();
+	}
+
+}

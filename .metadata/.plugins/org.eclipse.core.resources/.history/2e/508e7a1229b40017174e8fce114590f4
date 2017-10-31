@@ -1,0 +1,27 @@
+package br.com.Aula13.E6;
+import java.math.*;
+import java.util.Scanner;
+
+public class exercicio6 {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
+		double raio, area;
+		System.out.println("Digite o raio do circulo");
+		raio = scan.nextFloat();
+		double pi = Math.PI;
+		area = (raio*raio)*pi;
+		System.out.println("A area do circulo e: %.2f" + area + " cm ou metros");
+	}
+
+}
+
+
+/*
+double pi = Math.PI;
+ 
+System.out.printf("PI: %.2f ", pi); // para ver 2 numeros depois do ponto
+ 
+System.out.println("PI: "+ pi); // para ver mais digitos */

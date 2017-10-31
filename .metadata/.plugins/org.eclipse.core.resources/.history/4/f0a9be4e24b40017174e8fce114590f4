@@ -1,0 +1,30 @@
+package br.com.Aula13.E4;
+
+import java.util.Scanner;
+
+public class exercicio4 {
+
+	public static void main(String[] args) {
+		// Exercicio 4 
+		Scanner scan = new Scanner (System.in);
+		
+		int media;
+		
+		System.out.println("Digite 1º Nona Bimestral");
+		int nota1 = scan.nextInt();
+		
+		System.out.println("Digite 2º Numero");
+		int nota2 = scan.nextInt();
+		
+		System.out.println("Digite 3º Nona Bimestral");
+		int nota3 = scan.nextInt();
+		
+		System.out.println("Digite 4º Numero");
+		int nota4 = scan.nextInt();
+		media=(nota1+nota2+nota3+nota4)/4;
+	
+		System.out.println("A media e: " + media);
+		
+	}
+
+}
